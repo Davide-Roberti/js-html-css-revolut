@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 header {
     height: 80px;
 }
@@ -24,14 +28,19 @@ header {
     height: 100%;
     width: 20%;
     float: left;
-    background-color: red;
+    display: flex;
+    align-items: center;
+}
+
+.header-left img {
+    width: 200px;
+    margin-left: 20px;
 }
 
 .header-right {
     height: 100%;
     width: 60%;
     float: right;
-    background-color: blue;
 }
 
 nav.menu {
@@ -45,10 +54,24 @@ nav.menu {
 }
 
 .dropdown-menu {
-    border: 1px solid black;
+    box-shadow: 2px 2px lightgrey;
     line-height: 60px;
     position: absolute;
     padding: 0 50px 0 30px;
     transform: translateX(-30px);
     display: none;
+    background-color: white;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav span {
+    cursor: pointer;
+}
+
+/* stilizzazione main */
+main {
+    height: calc(100vh - 80px);
 }
