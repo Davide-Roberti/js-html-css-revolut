@@ -41,8 +41,14 @@ nav.menu {
 
 .menu-item {
     line-height: 80px;
+    position: relative;
 }
 
 .dropdown-menu {
     border: 1px solid black;
+    line-height: 60px;
+    position: absolute;
+    padding: 0 50px 0 30px;
+    transform: translateX(-30px);
+    display: none;
 }
