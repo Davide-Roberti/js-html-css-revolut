@@ -92,4 +92,45 @@ nav span {
 /* stilizzazione main */
 main {
     height: calc(100vh - 80px);
+    overflow: hidden;
+}
+
+.container-main {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    padding: 100px 0;
+    color: #1a3c58;
+}
+
+.main-left {
+    width: 50%;
+    float: left;
+}
+
+.main-right {
+    width: 50%;
+    float: left;
+}
+
+.main-left span {
+    font-size: 53px;
+}
+
+.main-left p {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main-left ul {
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.main-right img {
+    width: 550px;
+    padding: 30px 0 0 30px;
 }
